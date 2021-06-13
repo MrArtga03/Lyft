@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/388764.png" type="image/png">
+    <title>Drive with Lyft - Become a Driver</title>
+</head>
+<body>
+
+    <!-- modal window -->
+    <div class="modal-window">
+        <div class="modal__container__content">
+            <div class="modal-wrapper">
+                <div class="title">
+                    <h4>Not interested?</h4>
+                    <p class="cross-to-close">&#215;</p>
+                </div>
+                <p>
+                    We're always looking to improve,  
+                    so please let us know why are you 
+                    not interested in driving with Lyft.
+                </p>
+    
+                <div class="submit">
+                    <div class="list">
+                        <div class="radio">
+                            <label for="reason-0" class="radio-label">
+                                <input type="radio" id="reason-0" name="reasonSelected">
+                                I don't have time to drive
+                            </label>
+                        </div>
+    
+                        <div class="radio">
+                            <label for="reason-1" class="radio-label">
+                                <input type="radio" id="reason-1" name="reasonSelected">
+                                I need more information
+                            </label>
+                        </div>
+    
+                        <div class="radio">
+                            <label for="reason-2" class="radio-label">
+                                <input type="radio" id="reason-2" name="reasonSelected">
+                                I don't have a car
+                            </label>
+                        </div>
+    
+                        <div class="radio">
+                            <label for="reason-3" class="radio-label">
+                                <input type="radio" id="reason-3" name="reasonSelected">
+                                I don't have a driver's license
+                            </label>
+                        </div>
+    
+                        <div class="radio">
+                            <label for="reason-4" class="radio-label">
+                                <input type="radio" id="reason-4" name="reasonSelected">
+                                Other
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="btn-link">
+                        <a href="#" class="submit-btn">
+                            submit
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section one -->
+    <div class="main__section">
+        <div class="container">
+            <div class="wrapper-lyft">
+                <svg viewBox="0 0 72 50" style="fill: white; height: 4em; width: 4em;"><g><g><path d="M.023.888h10.912v28.716c0 4.544 2.12 7.251 3.796 8.411-1.775 1.547-7.198 2.901-11.24-.386C1.106 35.69.022 32.504.022 29.507V.888zM68.218 24.742v-3.018h3.328V11.137H67.89C66.488 4.781 60.717.018 53.815.018c-7.95 0-14.396 6.32-14.396 14.116v24.724c2.265.312 4.964-.04 7.26-1.906 2.384-1.938 3.467-5.124 3.467-8.122v-.91h5.45V17.333h-5.45v-3.199h.013c0-1.98 1.637-3.585 3.656-3.585 2.02 0 3.662 1.605 3.662 3.585v10.608c0 7.796 6.453 14.116 14.403 14.116V28.326c-2.019 0-3.662-1.605-3.662-3.584"></path><path d="M26.89 11.137v15.537c0 .883-.746 1.597-1.667 1.597-.92 0-1.667-.714-1.667-1.597V11.137H12.759V29.41c0 3.288 1.137 7.445 6.31 8.799 5.18 1.355 8.185-1.45 8.185-1.45-.274 1.848-2.049 3.201-4.909 3.491-2.164.22-4.93-.483-6.31-1.063v9.681c3.517 1.017 7.236 1.345 10.877.653 6.606-1.257 10.775-6.671 10.775-13.874v-24.51H26.891z"></path></g></g></svg>
+            </div>
+    
+            <div class="wrapper">
+                <div class="main-title">
+                    <h1>Drive toward what matters.</h1>
+                </div>
+    
+                <div class="sing-up-to-drive">
+                    <span class="title__sing">Sing up to drive</span><br>
+                    <span class="text__sing">
+                        Let's start with your phone number - we'll text you a code to verify your phone.
+                    </span>
+                </div>
+    
+                <div class="content">
+                    <div class="wrapper-phone">
+                        <div class="phone-number">
+                            <div class="frst__lab">
+                                <label for="hasCar" class="hasCar">
+                                    <input type="radio" class="hasCar-input" id="hasCar" name="name1">
+                                    <span class="fake"></span>
+                                </label>
+                                <div class="input-txt">
+                                    I have a car
+                                </div>
+                            </div>
+            
+                            <div class="scnd-lab">
+                                <label for="hasCar2" class="hasCar2">
+                                    <input type="radio" class="hasCar-input" id="hasCar2" name="name1">
+                                    <span class="fake"></span>
+                                </label>
+                                <div class="input-txt">
+                                    I need a car
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="container-form">
+                            <div class="form">
+                                <input type="text" id="email" class="form__input" autocomplete="off">
+                                <label for="email" class="form__label">Mobile Phone Number</label>
+                            </div>
+        
+                            <div class="agree-radio">
+                                <label for="agreebox">
+                                    <input type="checkBox" class="checkbox" id="agreebox" name="name3">
+                                    <span class="fake"></span>
+                                </label>
+                                <div class="text-cb">
+                                    I agree to Lyft's 
+                                    <a href="#" class="agree-link">
+                                        Terms of Service
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="btn__form">
+                        <a href="#" class="btn-link">
+                            Next
+                        </a>
+                    </div>
+    
+                    <div class="apply">
+                        Already applied or already a driver? <br>
+                        <a href="#" class="check__app__status">
+                            Log in
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section two -->
+
+    <div class="wrapper-sections">
+        <div class="section-one">
+            <div class="container__section">
+                <div class="content__sect__one">
+                    <h3 class="logo-section">
+                        What if Lyft?
+                    </h3>
+    
+                    <p class="description__section">
+                        Lyft is a platform that connects drivers with individuals and 
+                        organizations that need <br>rides. 
+                        <br>
+                        <br>
+                        We know this is a challenging time, and as the COVID-19 crisis
+                        continues the well-being of Lyft drivers is our priority. Visit our 
+                        <a href="#" class="desc-link">site</a>
+                        to learn what steps we're taking to support drivers, and how 
+                        we're finding new opportunities for them to earn while helping 
+                        their communities.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-two">
+            <div class="container__section">
+                <div class="content__sect__two">
+                    <h3 class="logo-section">
+                        Why Lyft?
+                    </h3>
+
+                    <ul class="tips-money-community">
+                        <li class="li-cont">
+                            <img src="images/drive-for-lyft-tip.8f0fe5f3.svg" alt="ERR" class="li-img">
+
+                            <h6>keep your tips</h6>
+                            <p>
+                                Earn tips from your passengers and keep the whole amount — they’re yours.
+                            </p>
+
+                            <div class="line"></div>
+                        </li>
+
+                        <li class="li-cont">
+                            <img src="images/drive-for-lyft-pay.b1e81f99.svg" alt="ERR" class="li-img">
+
+                            <h6>make more money</h6>
+                            <p>
+                                With increased Prime Time pricing during peak hours, you make more with Lyft.
+                            </p>
+
+                            <div class="line"></div>
+                        </li>
+
+                        <li class="li-cont">
+                            <img src="images/drive-for-lyft-community.de63469a.svg" alt="ERR" class="li-img">
+
+                            <h6>best community</h6>
+                            <p>
+                                The Lyft community is full of awesome, friendly people — passengers and drivers alike.
+                            </p>
+
+                            <div class="line"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- section three -->
+    
+        <div class="section-three">
+            <div class="container__section__three">
+                <div class="content__sect__three">
+                    <div class="cont__sect__one">
+                        <div class="cross">
+                            <img src="images/drive-for-lyft-shield.3c5abfd2.png" alt="ERR" class="img-cross">
+                        </div>
+    
+                        <div class="description-cross">
+                            <h3>Lyft Insurance Protection</h3>
+                            <p>
+                                Lyft provides additional insurance policies, at no cost to the driver.
+                                We worked with leading insurance carriers to provide various coverages including: commercial auto liability insurance 
+                                up to $1M per occurrence, contingent comprehensive and collision 
+                                insurance for drivers who carry comprehensive and collision coverage 
+                                on their personal auto policy, and coverage for bodily injury caused 
+                                by uninsured/underinsured motorists when you are engaged in a ride. 
+                                If you already carry commercial insurance or personal coverage 
+                                providing specific coverage for ridesharing, Lyft’s policy will 
+                                continue to be excess to your insurance coverage. Please note, the 
+                                above coverage may be modified to comply with local regulations or 
+                                state laws. Our policy is available in all states in the U.S., 
+                                except for those rides originating in New York City with a TLC 
+                                (Taxi and Limousine Commission) driver.
+                                <a href="#" class="link-p">Get information about our insurance policies.</a>
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="cont__sect__two">
+                        <div class="star">
+                            <img src="images/drive-for-lyft-five-stars.4d2fd438.png" alt="ERR" class="img-star">
+                        </div>
+    
+                        <div class="description-star">
+                            <h3>Passenger Ratings</h3>
+                            <p>
+                                Drivers rate passengers after each ride, 
+                                so you’ve always got a say. We also require 
+                                passengers to provide valid credit card 
+                                information for identity verification purposes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section four -->
+
+    <div class="section-four">
+        <div class="container__section__four">
+            <div class="content__sect__four">
+                <h2>Frequently Asked Questions</h2>
+                <div class="line"></div>
+                <!-- <div class="empty-space"></div> -->
+                <div class="container__accordion">
+                    <!-- 1 accordion -->
+                    <div class="accord">
+                        <div class="accordion">
+                            <h3 class="title-accord">Is driving for Lyft affected by COVID-19?</h3>
+                        </div>
+                        
+                        <div class="point">
+                            <svg fill="currentColor" class="shish" preserveAspectRatio="xMidYMid meet" height="26" width="26" viewBox="0 0 40 41" style="vertical-align: middle;">
+                                <g>
+                                    <path d="M2 20.5c0 10.191 8.058 18.45 18 18.45
+                                    9.943 0 18-8.26 18-18.45 0-10.191-8.058-18.45-18-18.45-9.943 
+                                    0-18 8.26-18 18.45zm-2 0C0 9.178 8.952 0 20 0c11.046 
+                                     0 20 9.176 20 20.5C40 31.822 31.048 41 20 41 8.954 41 
+                                     0 31.824 0 20.5zm21.271-1.303V14.35H18.73v4.847H14v2.606h4.729v4.847h2.542v-4.847H26v-2.606h-4.729z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="point-2">
+                            <svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="26" width="26" viewBox="0 0 41 41" style="vertical-align: middle;">
+                                <g>
+                                    <path d="M2 20.5c0 10.191 8.058 18.45 18 18.45 9.943 0 18-8.26 18-18.45 
+                                    0-10.191-8.058-18.45-18-18.45-9.943 0-18 8.26-18 18.45zm-2 0C0 9.178 8.952 
+                                    0 20 0c11.046 0 20 9.176 20 20.5C40 31.822 31.048 41 20 41 8.954 41 0 
+                                    31.824 0 20.5zm14-1.303v2.606h12v-2.606H14z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="text-accord">
+                        <p>
+                            We’re monitoring the COVID-19 situation closely, 
+                            and taking action based on guidance from the Centers 
+                            for Disease Control and Prevention (CDC), the World 
+                            Health Organization (WHO), and local and federal officials.
+                            <br> 
+                            <br> 
+                            We remain operational across North America except in a 
+                            select few locations where we've received alternate 
+                            guidance from local and federal officials.
+                            <br> 
+                            <br>
+                            Even in communities where local officials have asked 
+                            residents to shelter in place, rides on the Lyft 
+                            platform continue to help people meet their essential
+                            needs, such as grocery shopping or picking up medication.
+                            <br> 
+                            <br>
+                            For the latest updates and information about Lyft’s 
+                            response to COVID-19, and what we’re doing to support drivers, 
+                            please visit our
+                            <a href="#" class="link-accord">online resource.</a> 
+                        </p>
+                    </div>
+                    <div class="line"></div>
+
+                    <!-- ------------- -->
+                    
+                    <!-- 2 accordion -->
+                    <div class="accord">
+                        <div class="accordion">
+                            <h3 class="title-accord">How long does the application process take?</h3>
+                        </div>
+                        
+                        <div class="point">
+                            <svg fill="currentColor" class="shish" preserveAspectRatio="xMidYMid meet" height="26" width="26" viewBox="0 0 40 41" style="vertical-align: middle;">
+                                <g>
+                                    <path d="M2 20.5c0 10.191 8.058 18.45 18 18.45
+                                    9.943 0 18-8.26 18-18.45 0-10.191-8.058-18.45-18-18.45-9.943 
+                                    0-18 8.26-18 18.45zm-2 0C0 9.178 8.952 0 20 0c11.046 
+                                     0 20 9.176 20 20.5C40 31.822 31.048 41 20 41 8.954 41 
+                                     0 31.824 0 20.5zm21.271-1.303V14.35H18.73v4.847H14v2.606h4.729v4.847h2.542v-4.847H26v-2.606h-4.729z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="point-2">
+                            <svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="26" width="26" viewBox="0 0 41 41" style="vertical-align: middle;">
+                                <g>
+                                    <path d="M2 20.5c0 10.191 8.058 18.45 18 18.45 9.943 0 18-8.26 18-18.45 
+                                    0-10.191-8.058-18.45-18-18.45-9.943 0-18 8.26-18 18.45zm-2 0C0 9.178 8.952 
+                                    0 20 0c11.046 0 20 9.176 20 20.5C40 31.822 31.048 41 20 41 8.954 41 0 
+                                    31.824 0 20.5zm14-1.303v2.606h12v-2.606H14z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="text-accord">
+                        <p>
+                            Typically, filling out basic information (like your mobile phone number, 
+                            driver’s license, and other documents) takes less than 30 minutes. Then 
+                            a few more things need to happen: 
+                        </p>
+                        <p>
+                            <strong>Vehicle Inspection:</strong> If you’re using your own car, it will need to pass a Lyft inspection to 
+                            make sure it’s road-ready. We’ll help you find a location and schedule an 
+                            appointment.
+                        </p>
+                        <p>
+                            <strong>Background check</strong>: Safety is our top priority, so we’ll need to run a 
+                            background check to review your driving history. This can take a few days to be 
+                            completed. 
+                        </p>
+                    </div>
+                    <div class="line"></div>
+                    
+                    <!-- ------------- -->
+
+                    <!-- 3 accordion -->
+                    <div class="accord">
+                        <div class="accordion">
+                            <h3 class="title-accord">When and where should I drive?</h3>
+                        </div>
+                        
+                        <div class="point">
+                            <svg fill="currentColor" class="shish" preserveAspectRatio="xMidYMid meet" height="26" width="26" viewBox="0 0 40 41" style="vertical-align: middle;">
+                                <g>
+                                    <path d="M2 20.5c0 10.191 8.058 18.45 18 18.45
+                                    9.943 0 18-8.26 18-18.45 0-10.191-8.058-18.45-18-18.45-9.943 
+                                    0-18 8.26-18 18.45zm-2 0C0 9.178 8.952 0 20 0c11.046 
+                                     0 20 9.176 20 20.5C40 31.822 31.048 41 20 41 8.954 41 
+                                     0 31.824 0 20.5zm21.271-1.303V14.35H18.73v4.847H14v2.606h4.729v4.847h2.542v-4.847H26v-2.606h-4.729z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="point-2">
+                            <svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="26" width="26" viewBox="0 0 41 41" style="vertical-align: middle;">
+                                <g>
+                                    <path d="M2 20.5c0 10.191 8.058 18.45 18 18.45 9.943 0 18-8.26 18-18.45 
+                                    0-10.191-8.058-18.45-18-18.45-9.943 0-18 8.26-18 18.45zm-2 0C0 9.178 8.952 
+                                    0 20 0c11.046 0 20 9.176 20 20.5C40 31.822 31.048 41 20 41 8.954 41 0 
+                                    31.824 0 20.5zm14-1.303v2.606h12v-2.606H14z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="text-accord">
+                        <p>
+                            The Lyft Driver app is your key to success, with real-time info 
+                            and features that make earning easy:
+                        </p>
+                        <p>
+                            <strong>Hourly ride predictions</strong> for each day — you’ll get an overview 
+                            of the best times to drive and where passengers need rides
+                        </p>
+                        <p>
+                            <strong>Available bonuses</strong> for the week
+                        </p>
+                        <p>
+                            <strong>Local events</strong> (and earning opportunities), 
+                            if applicable, that are happening nearby
+                        </p>
+                    </div>
+                    <div class="line"></div>
+                    
+                    <!-- ------------- -->
+
+                    <!-- 4 accordion -->
+                    <div class="accord">
+                        <div class="accordion">
+                            <h3 class="title-accord">Is Lyft safe?</h3>
+                        </div>
+                        
+                        <div class="point">
+                            <svg fill="currentColor" class="shish" preserveAspectRatio="xMidYMid meet" height="26" width="26" viewBox="0 0 40 41" style="vertical-align: middle;">
+                                <g>
+                                    <path d="M2 20.5c0 10.191 8.058 18.45 18 18.45
+                                    9.943 0 18-8.26 18-18.45 0-10.191-8.058-18.45-18-18.45-9.943 
+                                    0-18 8.26-18 18.45zm-2 0C0 9.178 8.952 0 20 0c11.046 
+                                     0 20 9.176 20 20.5C40 31.822 31.048 41 20 41 8.954 41 
+                                     0 31.824 0 20.5zm21.271-1.303V14.35H18.73v4.847H14v2.606h4.729v4.847h2.542v-4.847H26v-2.606h-4.729z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="point-2">
+                            <svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="26" width="26" viewBox="0 0 41 41" style="vertical-align: middle;">
+                                <g>
+                                    <path d="M2 20.5c0 10.191 8.058 18.45 18 18.45 9.943 0 18-8.26 18-18.45 
+                                    0-10.191-8.058-18.45-18-18.45-9.943 0-18 8.26-18 18.45zm-2 0C0 9.178 8.952 
+                                    0 20 0c11.046 0 20 9.176 20 20.5C40 31.822 31.048 41 20 41 8.954 41 0 
+                                    31.824 0 20.5zm14-1.303v2.606h12v-2.606H14z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="text-accord">
+                        <p>
+                            At Lyft, we’re committed to driver and passenger safety. 
+                            We’ve got your back before, during, and after the ride.
+                        </p>
+                        <p>
+                            <strong>24/7 support:</strong> Easily contact our support team for reliable, 
+                            around-the-clock help by phone or email,  with any issues on and off the road.
+                        </p>
+                        <p>
+                            <strong>Emergency assistance:</strong> You always have the ability to 
+                            contact 911 directly from your app.
+                        </p>
+                        <p>
+                            <strong>Insurance:</strong> Our car insurance has your back — from the moment 
+                            you switch into driver mode until you drop off your last passenger of the day.
+                            <a href="#">Learn more</a> 
+                        </p>
+                    </div>
+                    <div class="line"></div>
+                    
+                    <!-- ------------- -->
+
+                    <!-- 5 accordion -->
+                    <div class="accord">
+                        <div class="accordion">
+                            <h3 class="title-accord">How do I get paid?</h3>
+                        </div>
+                        
+                        <div class="point">
+                            <svg fill="currentColor" class="shish" preserveAspectRatio="xMidYMid meet" height="26" width="26" viewBox="0 0 40 41" style="vertical-align: middle;">
+                                <g>
+                                    <path d="M2 20.5c0 10.191 8.058 18.45 18 18.45
+                                    9.943 0 18-8.26 18-18.45 0-10.191-8.058-18.45-18-18.45-9.943 
+                                    0-18 8.26-18 18.45zm-2 0C0 9.178 8.952 0 20 0c11.046 
+                                     0 20 9.176 20 20.5C40 31.822 31.048 41 20 41 8.954 41 
+                                     0 31.824 0 20.5zm21.271-1.303V14.35H18.73v4.847H14v2.606h4.729v4.847h2.542v-4.847H26v-2.606h-4.729z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="point-2">
+                            <svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="26" width="26" viewBox="0 0 41 41" style="vertical-align: middle;">
+                                <g>
+                                    <path d="M2 20.5c0 10.191 8.058 18.45 18 18.45 9.943 0 18-8.26 18-18.45 
+                                    0-10.191-8.058-18.45-18-18.45-9.943 0-18 8.26-18 18.45zm-2 0C0 9.178 8.952 
+                                    0 20 0c11.046 0 20 9.176 20 20.5C40 31.822 31.048 41 20 41 8.954 41 0 
+                                    31.824 0 20.5zm14-1.303v2.606h12v-2.606H14z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="text-accord">
+                        <p>
+                            Your pay is based on the time and distance of a ride (and you keep 100% of your tips, of course). All payments are made through the Lyft 
+                            Driver app weekly, so you’ll need to add your banking info to get paid. 
+                            You can also set up Express Pay to cash out when you want. 
+                        </p>
+                    </div>
+                    <div class="line"></div>
+                    
+                    <!-- ------------- -->
+
+                    <!-- 6 accordion -->
+                    <div class="accord">
+                        <div class="accordion">
+                            <h3 class="title-accord">What is driving really like?</h3>
+                        </div>
+                        
+                        <div class="point">
+                            <svg fill="currentColor" class="shish" preserveAspectRatio="xMidYMid meet" height="26" width="26" viewBox="0 0 40 41" style="vertical-align: middle;">
+                                <g>
+                                    <path d="M2 20.5c0 10.191 8.058 18.45 18 18.45
+                                    9.943 0 18-8.26 18-18.45 0-10.191-8.058-18.45-18-18.45-9.943 
+                                    0-18 8.26-18 18.45zm-2 0C0 9.178 8.952 0 20 0c11.046 
+                                     0 20 9.176 20 20.5C40 31.822 31.048 41 20 41 8.954 41 
+                                     0 31.824 0 20.5zm21.271-1.303V14.35H18.73v4.847H14v2.606h4.729v4.847h2.542v-4.847H26v-2.606h-4.729z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="point-2">
+                            <svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="26" width="26" viewBox="0 0 41 41" style="vertical-align: middle;">
+                                <g>
+                                    <path d="M2 20.5c0 10.191 8.058 18.45 18 18.45 9.943 0 18-8.26 18-18.45 
+                                    0-10.191-8.058-18.45-18-18.45-9.943 0-18 8.26-18 18.45zm-2 0C0 9.178 8.952 
+                                    0 20 0c11.046 0 20 9.176 20 20.5C40 31.822 31.048 41 20 41 8.954 41 0 
+                                    31.824 0 20.5zm14-1.303v2.606h12v-2.606H14z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="text-accord">
+                        <p>
+                            It can vary from city to city. To give you a better sense of 
+                            what driving with Lyft is like, 
+                            <a href="#">watch the full video</a>
+                            of a new driver during their first week. 
+                        </p>
+                    </div>
+                    <div class="line"></div>
+                    
+                    <!-- ------------- -->
+
+                    <!-- 7 accordion -->
+                    <div class="accord">
+                        <div class="accordion">
+                            <h3 class="title-accord">What about the wear and tear on my car?</h3>
+                        </div>
+                        
+                        <div class="point">
+                            <svg fill="currentColor" class="shish" preserveAspectRatio="xMidYMid meet" height="26" width="26" viewBox="0 0 40 41" style="vertical-align: middle;">
+                                <g>
+                                    <path d="M2 20.5c0 10.191 8.058 18.45 18 18.45
+                                    9.943 0 18-8.26 18-18.45 0-10.191-8.058-18.45-18-18.45-9.943 
+                                    0-18 8.26-18 18.45zm-2 0C0 9.178 8.952 0 20 0c11.046 
+                                     0 20 9.176 20 20.5C40 31.822 31.048 41 20 41 8.954 41 
+                                     0 31.824 0 20.5zm21.271-1.303V14.35H18.73v4.847H14v2.606h4.729v4.847h2.542v-4.847H26v-2.606h-4.729z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="point-2">
+                            <svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="26" width="26" viewBox="0 0 41 41" style="vertical-align: middle;">
+                                <g>
+                                    <path d="M2 20.5c0 10.191 8.058 18.45 18 18.45 9.943 0 18-8.26 18-18.45 
+                                    0-10.191-8.058-18.45-18-18.45-9.943 0-18 8.26-18 18.45zm-2 0C0 9.178 8.952 
+                                    0 20 0c11.046 0 20 9.176 20 20.5C40 31.822 31.048 41 20 41 8.954 41 0 
+                                    31.824 0 20.5zm14-1.303v2.606h12v-2.606H14z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="text-accord">
+                        <p>
+                            We’re expanding Lyft Driver Centers, Lyft Mobile Service, and our Openbay partnership to lower the costs of 
+                            vehicle service. Or you can rent a car through our Express Drive program.
+                        </p>
+                    </div>
+                    <div class="line"></div>
+                    
+                    <!-- ------------- -->
+
+                    <!-- 8 accordion -->
+                    <div class="accord">
+                        <div class="accordion">
+                            <h3 class="title-accord">What documents are required?</h3>
+                        </div>
+                        
+                        <div class="point">
+                            <svg fill="currentColor" class="shish" preserveAspectRatio="xMidYMid meet" height="26" width="26" viewBox="0 0 40 41" style="vertical-align: middle;">
+                                <g>
+                                    <path d="M2 20.5c0 10.191 8.058 18.45 18 18.45
+                                    9.943 0 18-8.26 18-18.45 0-10.191-8.058-18.45-18-18.45-9.943 
+                                    0-18 8.26-18 18.45zm-2 0C0 9.178 8.952 0 20 0c11.046 
+                                     0 20 9.176 20 20.5C40 31.822 31.048 41 20 41 8.954 41 
+                                     0 31.824 0 20.5zm21.271-1.303V14.35H18.73v4.847H14v2.606h4.729v4.847h2.542v-4.847H26v-2.606h-4.729z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="point-2">
+                            <svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="26" width="26" viewBox="0 0 41 41" style="vertical-align: middle;">
+                                <g>
+                                    <path d="M2 20.5c0 10.191 8.058 18.45 18 18.45 9.943 0 18-8.26 18-18.45 
+                                    0-10.191-8.058-18.45-18-18.45-9.943 0-18 8.26-18 18.45zm-2 0C0 9.178 8.952 
+                                    0 20 0c11.046 0 20 9.176 20 20.5C40 31.822 31.048 41 20 41 8.954 41 0 
+                                    31.824 0 20.5zm14-1.303v2.606h12v-2.606H14z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="text-accord">
+                        <p>
+                            Application requirements can vary by city. 
+                            <a href="#">Find yours here</a> for more information.
+                        </p>
+                    </div>
+                    <div class="line"></div>
+                    
+                    <!-- ------------- -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- section four -->
+    
+    <footer>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            Privacy
+        </a>
+    </footer>
+    
+    <!-- section five -->
+
+    <div class="yes-or-no">
+        <div class="line"></div>
+        <div class="container__elements">
+            <p>Interested in driving with Lyft?</p>
+            <a href="#" class="no-btn">not yet</a>
+            <a href="#" class="yes-btn">yes</a>
+        </div>
+    </div>
+
+    <!-- section six -->
+
+    <script src="script/script.js"></script>
+    <script src="script/show-block.js"></script>
+</body>
+</html>
