@@ -1,4 +1,5 @@
 //accordion event
+
 const point = document.getElementsByClassName("shish");
 const pointBack = document.getElementsByClassName("point-2");
 const textAccord = document.querySelectorAll(".text-accord");

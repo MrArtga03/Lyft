@@ -225,13 +225,6 @@ $color-link: #785EF0;
                             z-index: 10;
                         }
                         
-                        // .form__input:not(:placeholder-shown).form__input:not(:focus)+ .form__label {
-                        //     top: -.2rem;
-                        //     color: white;
-                        //     font-size: 14px;
-                        //     font-weight: 500;
-                        //     z-index: 10;
-                        // }
                     }
                     .agree-radio {
                         display: flex;
@@ -363,7 +356,6 @@ $color-link: #785EF0;
                 }
                 
                 .description__section {
-                    flex: 0 0 66.66667%;
                     color: $color-text;
                     font-weight: 100;
                     padding: 0px 15px;
@@ -380,7 +372,6 @@ $color-link: #785EF0;
                         padding: 0px;
                     }
                     .description__section {
-                        flex: 0 0 100%;
                         font-size: 15px;
                         padding: 0px;
                     }
@@ -397,7 +388,7 @@ $color-link: #785EF0;
         }
         @media screen and (max-width: 728px) {
             .container__section {
-                margin-top: 0px;
+                padding: 0px 20px 0px 20px;
             }
         }
     }
@@ -427,6 +418,7 @@ $color-link: #785EF0;
 
                 .tips-money-community {
                     display: flex;
+                    justify-content: space-between;
 
                     .li-cont {
                         list-style: none;
@@ -499,7 +491,7 @@ $color-link: #785EF0;
             @media screen and (max-width: 1098px) {
                 .content__sect__two {
                     margin-left: 0px;
-                    padding: 0px 20px;
+                    padding: 0px 40px;
                 }
             }
         }
@@ -781,6 +773,7 @@ footer {
     @media screen and (max-width: 690px) {
         .container__elements {
             flex-direction: column;
+            margin-right: 10%;
             .no-btn {
                 margin: 15px 0px;
             }

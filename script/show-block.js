@@ -1,4 +1,5 @@
 //show block yes-or-no
+
 const block = document.querySelector(".yes-or-no");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");

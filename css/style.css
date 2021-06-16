@@ -299,7 +299,6 @@ body {
   font-family: "proxima-nova", sans-serif;
 }
 .wrapper-sections .section-one .container__section .content__sect__one .description__section {
-  flex: 0 0 66.66667%;
   color: #0C0B31;
   font-weight: 100;
   padding: 0px 15px;
@@ -315,7 +314,6 @@ body {
     padding: 0px;
   }
   .wrapper-sections .section-one .container__section .content__sect__one .description__section {
-    flex: 0 0 100%;
     font-size: 15px;
     padding: 0px;
   }
@@ -328,7 +326,7 @@ body {
 }
 @media screen and (max-width: 728px) {
   .wrapper-sections .section-one .container__section {
-    margin-top: 0px;
+    padding: 0px 20px 0px 20px;
   }
 }
 @media screen and (max-width: 1098px) {
@@ -354,6 +352,7 @@ body {
 }
 .wrapper-sections .section-two .container__section .content__sect__two .tips-money-community {
   display: flex;
+  justify-content: space-between;
 }
 .wrapper-sections .section-two .container__section .content__sect__two .tips-money-community .li-cont {
   list-style: none;
@@ -412,7 +411,7 @@ body {
 @media screen and (max-width: 1098px) {
   .wrapper-sections .section-two .container__section .content__sect__two {
     margin-left: 0px;
-    padding: 0px 20px;
+    padding: 0px 40px;
   }
 }
 @media screen and (max-width: 1098px) {
@@ -646,6 +645,7 @@ footer a {
 @media screen and (max-width: 690px) {
   .yes-or-no .container__elements {
     flex-direction: column;
+    margin-right: 10%;
   }
   .yes-or-no .container__elements .no-btn {
     margin: 15px 0px;
